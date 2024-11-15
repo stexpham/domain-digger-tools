@@ -16,7 +16,7 @@ export const Header: FC = () => (
       <div className="flex items-center justify-between gap-4">
         <Button variant="ghost" asChild>
           <a
-            href="https://github.com/sponsors/wotschofsky"
+            href="https://github.com/sponsors/stexpham"
             target="_blank"
             rel="noopener"
           >
@@ -26,7 +26,7 @@ export const Header: FC = () => (
         </Button>
         <Button variant="ghost" asChild>
           <a
-            href="https://github.com/wotschofsky/domain-digger"
+            href="https://github.com/stexpham/domain-digger-tools"
             target="_blank"
             rel="noopener"
           >
