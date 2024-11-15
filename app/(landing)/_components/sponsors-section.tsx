@@ -17,7 +17,7 @@ export const SponsorsSection: FC<SponsorsSectionProps> = async ({
     return url.toString();
   };
 
-  const githubSponsors = await getGitHubSponsors('wotschofsky');
+  const githubSponsors = await getGitHubSponsors('stexpham');
 
   const allSponsors = [
     ...(env.SPONSORS || []),
@@ -60,7 +60,7 @@ export const SponsorsSection: FC<SponsorsSectionProps> = async ({
       <span className="text-center text-sm">
         <a
           className="text-muted-foreground underline decoration-dotted underline-offset-4"
-          href="https://github.com/sponsors/wotschofsky"
+          href="https://github.com/sponsors/stexpham"
           target="_blank"
         >
           Sponsor through GitHub and add your logo
