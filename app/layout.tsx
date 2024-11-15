@@ -3,6 +3,7 @@ import type { Viewport } from 'next';
 import dynamic from 'next/dynamic';
 import type { FC, ReactNode } from 'react';
 
+import { Adsense } from '@/components/ui/adsense/AutoadsScript';
 import { Toaster } from '@/components/ui/sonner';
 
 import { ClientOnly } from '@/components/client-only';
@@ -53,6 +54,7 @@ const RootLayout: FC<RootLayoutProps> = ({ children }) => {
       <body>
         <Providers>
           <div className="flex min-h-screen flex-col items-center justify-center">
+            <Adsense />
             <Header />
 
             <main className="w-full flex-1 pb-16 pt-8">{children}</main>

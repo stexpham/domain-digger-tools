@@ -2,6 +2,7 @@ import Link from 'next/link';
 import type { FC, HTMLAttributes } from 'react';
 import { FaGithub, FaHeart } from 'react-icons/fa';
 
+import { Display } from "@/components/ui/adsense/Display"
 import { Button } from '@/components/ui/button';
 
 import PoweredByVercel from '@/assets/powered-by-vercel.svg';
@@ -28,6 +29,7 @@ export const Footer: FC = () => (
   <footer className="w-full p-4 md:px-8">
     <div className="flex flex-col items-start gap-6 border-t pt-4">
       <div className="flex w-full flex-col items-center justify-between gap-3 sm:flex-row">
+        <Display slot="5435815038" />
         <Logo />
 
         <p className="text-sm">
