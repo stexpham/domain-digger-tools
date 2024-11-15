@@ -20,24 +20,24 @@ export const AuthorSection: FC<AuthorSectionProps> = ({
       width={48}
       height={48}
       className="h-12 w-12 rounded-full"
-      src="https://static.wsky.dev/branding/photo.jpg"
-      alt="Felix Wotschofsky, creator of Domain Digger"
+      src="https://stephamopensource.s3.us-east-1.amazonaws.com/authors/stepham-1.png"
+      alt="Stepham, Developer of Domain Digger Tools"
     />
     <div>
-      <p>Hey there, I am Felix, the creator of Domain Digger. 👋</p>
+      <p>Hey there, I am Stepham, the creator of Domain Digger. 👋</p>
       <p>
         You can{' '}
         <a
           className="underline decoration-dotted underline-offset-4"
-          href="https://x.com/wotschofsky"
+          href="https://github.com/sponsors/stexpham"
           target="_blank"
         >
-          follow me on X
+          sponsor me to the project
         </a>{' '}
         and{' '}
         <a
           className="underline decoration-dotted underline-offset-4"
-          href="https://wotschofsky.com/"
+          href="https://stepham.com/"
           target="_blank"
         >
           check out my other projects
