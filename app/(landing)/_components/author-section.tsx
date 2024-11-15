@@ -20,7 +20,7 @@ export const AuthorSection: FC<AuthorSectionProps> = ({
       width={48}
       height={48}
       className="h-12 w-12 rounded-full"
-      src="https://stephamopensource.s3.us-east-1.amazonaws.com/authors/stepham-1.png"
+      src="https://bucket.stepham.com/cdn/stepham-1.png"
       alt="Stepham, Developer of Domain Digger Tools"
     />
     <div>
