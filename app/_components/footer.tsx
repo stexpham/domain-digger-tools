@@ -15,7 +15,7 @@ type VercelBadgeProps = HTMLAttributes<HTMLAnchorElement>;
 const VercelBadge: FC<VercelBadgeProps> = ({ className, ...props }) => (
   <a
     className={cn('[&>svg]:h-10', className)}
-    href="https://vercel.com/?utm_source=domain-digger&utm_campaign=oss"
+    href="https://vercel.com/?utm_source=domain-digger-tools&utm_campaign=oss"
     target="_blank"
     rel="noopener"
     {...props}
@@ -38,12 +38,12 @@ export const Footer: FC = () => (
           <span className="sr-only">love</span> by{' '}
           <a
             className="underline decoration-dotted underline-offset-4"
-            href="https://wotschofsky.com"
+            href="https://stepham.com"
             target="_blank"
             rel="noopener"
-            aria-label="Felix Wotschofsky (Site Creator)"
+            aria-label="Stepham (Site Developer)"
           >
-            Felix Wotschofsky
+            Stepham
           </a>
         </p>
       </div>
